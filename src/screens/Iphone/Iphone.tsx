@@ -47,7 +47,7 @@ export const Iphone = (): JSX.Element => {
     <div className="flex flex-col items-center relative bg-white overflow-hidden">
       {/* Hero Section */}
       <div className="relative w-full h-[716px] bg-white flex items-center justify-center">
-        <div className="w-full max-w-[720px] h-full [background:url(..//frame-7.webp)_center_center_/_cover] flex items-center justify-center">
+        <div className="w-full max-w-[1024px] h-full [background:url(..//frame-7.webp)_center_center_/_cover] flex items-center justify-center">
           <div className="relative w-[502px] h-[502px] rounded-[251px] flex flex-col items-center justify-center">
             <img
               className="w-[248px] h-[293px]"
@@ -61,7 +61,7 @@ export const Iphone = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="w-full max-w-[720px] mx-auto">
+      <div className="w-full max-w-[1024px] mx-auto">
         {/* About Section */}
         <Card className="w-full border-none shadow-none rounded-none">
           <CardContent className="flex flex-col items-center justify-center gap-4 px-8 py-12">
