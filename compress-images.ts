@@ -67,8 +67,8 @@ async function processImages(
 }
 
 // Main configuration
-const inputDir = path.join(__dirname, "uncompressed-images");
+const inputDir = path.join(__dirname, "images-to-compress");
 const outputDir = path.join(__dirname, "public");
-const quality = 20; // Adjust the quality (1-100) as needed
+const quality = 50; // Adjust the quality (1-100) as needed
 
 processImages(inputDir, outputDir, quality);
