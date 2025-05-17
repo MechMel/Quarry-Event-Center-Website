@@ -15,7 +15,6 @@ export const Iphone = (): JSX.Element => {
     "DOG SHOWS",
     "SEMINARS",
     "BAZAARS",
-    "EQUESTRIAN EVENTS",
     "WRESTLING MEET",
     "GYM RENTAL",
     "CLUBS",
